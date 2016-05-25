@@ -15,41 +15,41 @@ import junit.framework.TestCase;
 public abstract class IdentifiedElementTest extends TestCase {
 
     /**
-     * The fixture for this Identified Element test case.
-     * <!-- begin-user-doc -->
+	 * The fixture for this Identified Element test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected IdentifiedElement fixture = null;
 
     /**
-     * Constructs a new Identified Element test case with the given name.
-     * <!-- begin-user-doc -->
+	 * Constructs a new Identified Element test case with the given name.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public IdentifiedElementTest(String name) {
-        super(name);
-    }
+		super(name);
+	}
 
     /**
-     * Sets the fixture for this Identified Element test case.
-     * <!-- begin-user-doc -->
+	 * Sets the fixture for this Identified Element test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected void setFixture(IdentifiedElement fixture) {
-        this.fixture = fixture;
-    }
+		this.fixture = fixture;
+	}
 
     /**
-     * Returns the fixture for this Identified Element test case.
-     * <!-- begin-user-doc -->
+	 * Returns the fixture for this Identified Element test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected IdentifiedElement getFixture() {
-        return fixture;
-    }
+		return fixture;
+	}
 
 } //IdentifiedElementTest

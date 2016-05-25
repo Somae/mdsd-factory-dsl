@@ -61,5 +61,4 @@
             contributorClass="factory.processes.presentation.ProcessesActionBarContributor">
       </editor>
    </extension>
-
 </plugin>

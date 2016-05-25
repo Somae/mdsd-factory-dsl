@@ -45,414 +45,414 @@ import org.eclipse.emf.ecore.util.InternalEList;
  */
 public class FactoryImpl extends IdentifiedElementImpl implements Factory {
     /**
-     * The default value of the '{@link #getAddress() <em>Address</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getAddress() <em>Address</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getAddress()
-     * @generated
-     * @ordered
-     */
+	 * @see #getAddress()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String ADDRESS_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getAddress() <em>Address</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getAddress() <em>Address</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getAddress()
-     * @generated
-     * @ordered
-     */
+	 * @see #getAddress()
+	 * @generated
+	 * @ordered
+	 */
     protected String address = ADDRESS_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getWidth() <em>Width</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getWidth() <em>Width</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getWidth()
-     * @generated
-     * @ordered
-     */
+	 * @see #getWidth()
+	 * @generated
+	 * @ordered
+	 */
     protected static final int WIDTH_EDEFAULT = 0;
 
     /**
-     * The cached value of the '{@link #getWidth() <em>Width</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getWidth() <em>Width</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getWidth()
-     * @generated
-     * @ordered
-     */
+	 * @see #getWidth()
+	 * @generated
+	 * @ordered
+	 */
     protected int width = WIDTH_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getLength() <em>Length</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getLength() <em>Length</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getLength()
-     * @generated
-     * @ordered
-     */
+	 * @see #getLength()
+	 * @generated
+	 * @ordered
+	 */
     protected static final int LENGTH_EDEFAULT = 0;
 
     /**
-     * The cached value of the '{@link #getLength() <em>Length</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getLength() <em>Length</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getLength()
-     * @generated
-     * @ordered
-     */
+	 * @see #getLength()
+	 * @generated
+	 * @ordered
+	 */
     protected int length = LENGTH_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getHeight() <em>Height</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getHeight() <em>Height</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getHeight()
-     * @generated
-     * @ordered
-     */
+	 * @see #getHeight()
+	 * @generated
+	 * @ordered
+	 */
     protected static final int HEIGHT_EDEFAULT = 0;
 
     /**
-     * The cached value of the '{@link #getHeight() <em>Height</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getHeight() <em>Height</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getHeight()
-     * @generated
-     * @ordered
-     */
+	 * @see #getHeight()
+	 * @generated
+	 * @ordered
+	 */
     protected int height = HEIGHT_EDEFAULT;
 
     /**
-     * The cached value of the '{@link #getOwnedHumanOperator() <em>Owned Human Operator</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getOwnedHumanOperator() <em>Owned Human Operator</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getOwnedHumanOperator()
-     * @generated
-     * @ordered
-     */
+	 * @see #getOwnedHumanOperator()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<HumanOperator> ownedHumanOperator;
 
     /**
-     * The cached value of the '{@link #getOwnedMachines() <em>Owned Machines</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getOwnedMachines() <em>Owned Machines</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getOwnedMachines()
-     * @generated
-     * @ordered
-     */
+	 * @see #getOwnedMachines()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<Machine> ownedMachines;
 
     /**
-     * The cached value of the '{@link #getOwnedProducts() <em>Owned Products</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getOwnedProducts() <em>Owned Products</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getOwnedProducts()
-     * @generated
-     * @ordered
-     */
+	 * @see #getOwnedProducts()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<Product> ownedProducts;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected FactoryImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return FactoryPackage.Literals.FACTORY;
-    }
+		return FactoryPackage.Literals.FACTORY;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getAddress() {
-        return address;
-    }
+		return address;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setAddress(String newAddress) {
-        String oldAddress = address;
-        address = newAddress;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, FactoryPackage.FACTORY__ADDRESS, oldAddress, address));
-    }
+		String oldAddress = address;
+		address = newAddress;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, FactoryPackage.FACTORY__ADDRESS, oldAddress, address));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public int getWidth() {
-        return width;
-    }
+		return width;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setWidth(int newWidth) {
-        int oldWidth = width;
-        width = newWidth;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, FactoryPackage.FACTORY__WIDTH, oldWidth, width));
-    }
+		int oldWidth = width;
+		width = newWidth;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, FactoryPackage.FACTORY__WIDTH, oldWidth, width));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public int getLength() {
-        return length;
-    }
+		return length;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setLength(int newLength) {
-        int oldLength = length;
-        length = newLength;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, FactoryPackage.FACTORY__LENGTH, oldLength, length));
-    }
+		int oldLength = length;
+		length = newLength;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, FactoryPackage.FACTORY__LENGTH, oldLength, length));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public int getHeight() {
-        return height;
-    }
+		return height;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setHeight(int newHeight) {
-        int oldHeight = height;
-        height = newHeight;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, FactoryPackage.FACTORY__HEIGHT, oldHeight, height));
-    }
+		int oldHeight = height;
+		height = newHeight;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, FactoryPackage.FACTORY__HEIGHT, oldHeight, height));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<HumanOperator> getOwnedHumanOperator() {
-        if (ownedHumanOperator == null) {
-            ownedHumanOperator = new EObjectContainmentEList<HumanOperator>(HumanOperator.class, this, FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR);
-        }
-        return ownedHumanOperator;
-    }
+		if (ownedHumanOperator == null) {
+			ownedHumanOperator = new EObjectContainmentEList<HumanOperator>(HumanOperator.class, this, FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR);
+		}
+		return ownedHumanOperator;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<Machine> getOwnedMachines() {
-        if (ownedMachines == null) {
-            ownedMachines = new EObjectContainmentEList<Machine>(Machine.class, this, FactoryPackage.FACTORY__OWNED_MACHINES);
-        }
-        return ownedMachines;
-    }
+		if (ownedMachines == null) {
+			ownedMachines = new EObjectContainmentEList<Machine>(Machine.class, this, FactoryPackage.FACTORY__OWNED_MACHINES);
+		}
+		return ownedMachines;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<Product> getOwnedProducts() {
-        if (ownedProducts == null) {
-            ownedProducts = new EObjectContainmentEList<Product>(Product.class, this, FactoryPackage.FACTORY__OWNED_PRODUCTS);
-        }
-        return ownedProducts;
-    }
+		if (ownedProducts == null) {
+			ownedProducts = new EObjectContainmentEList<Product>(Product.class, this, FactoryPackage.FACTORY__OWNED_PRODUCTS);
+		}
+		return ownedProducts;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
-                return ((InternalEList<?>)getOwnedHumanOperator()).basicRemove(otherEnd, msgs);
-            case FactoryPackage.FACTORY__OWNED_MACHINES:
-                return ((InternalEList<?>)getOwnedMachines()).basicRemove(otherEnd, msgs);
-            case FactoryPackage.FACTORY__OWNED_PRODUCTS:
-                return ((InternalEList<?>)getOwnedProducts()).basicRemove(otherEnd, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
+				return ((InternalEList<?>)getOwnedHumanOperator()).basicRemove(otherEnd, msgs);
+			case FactoryPackage.FACTORY__OWNED_MACHINES:
+				return ((InternalEList<?>)getOwnedMachines()).basicRemove(otherEnd, msgs);
+			case FactoryPackage.FACTORY__OWNED_PRODUCTS:
+				return ((InternalEList<?>)getOwnedProducts()).basicRemove(otherEnd, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case FactoryPackage.FACTORY__ADDRESS:
-                return getAddress();
-            case FactoryPackage.FACTORY__WIDTH:
-                return getWidth();
-            case FactoryPackage.FACTORY__LENGTH:
-                return getLength();
-            case FactoryPackage.FACTORY__HEIGHT:
-                return getHeight();
-            case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
-                return getOwnedHumanOperator();
-            case FactoryPackage.FACTORY__OWNED_MACHINES:
-                return getOwnedMachines();
-            case FactoryPackage.FACTORY__OWNED_PRODUCTS:
-                return getOwnedProducts();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case FactoryPackage.FACTORY__ADDRESS:
+				return getAddress();
+			case FactoryPackage.FACTORY__WIDTH:
+				return getWidth();
+			case FactoryPackage.FACTORY__LENGTH:
+				return getLength();
+			case FactoryPackage.FACTORY__HEIGHT:
+				return getHeight();
+			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
+				return getOwnedHumanOperator();
+			case FactoryPackage.FACTORY__OWNED_MACHINES:
+				return getOwnedMachines();
+			case FactoryPackage.FACTORY__OWNED_PRODUCTS:
+				return getOwnedProducts();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case FactoryPackage.FACTORY__ADDRESS:
-                setAddress((String)newValue);
-                return;
-            case FactoryPackage.FACTORY__WIDTH:
-                setWidth((Integer)newValue);
-                return;
-            case FactoryPackage.FACTORY__LENGTH:
-                setLength((Integer)newValue);
-                return;
-            case FactoryPackage.FACTORY__HEIGHT:
-                setHeight((Integer)newValue);
-                return;
-            case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
-                getOwnedHumanOperator().clear();
-                getOwnedHumanOperator().addAll((Collection<? extends HumanOperator>)newValue);
-                return;
-            case FactoryPackage.FACTORY__OWNED_MACHINES:
-                getOwnedMachines().clear();
-                getOwnedMachines().addAll((Collection<? extends Machine>)newValue);
-                return;
-            case FactoryPackage.FACTORY__OWNED_PRODUCTS:
-                getOwnedProducts().clear();
-                getOwnedProducts().addAll((Collection<? extends Product>)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case FactoryPackage.FACTORY__ADDRESS:
+				setAddress((String)newValue);
+				return;
+			case FactoryPackage.FACTORY__WIDTH:
+				setWidth((Integer)newValue);
+				return;
+			case FactoryPackage.FACTORY__LENGTH:
+				setLength((Integer)newValue);
+				return;
+			case FactoryPackage.FACTORY__HEIGHT:
+				setHeight((Integer)newValue);
+				return;
+			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
+				getOwnedHumanOperator().clear();
+				getOwnedHumanOperator().addAll((Collection<? extends HumanOperator>)newValue);
+				return;
+			case FactoryPackage.FACTORY__OWNED_MACHINES:
+				getOwnedMachines().clear();
+				getOwnedMachines().addAll((Collection<? extends Machine>)newValue);
+				return;
+			case FactoryPackage.FACTORY__OWNED_PRODUCTS:
+				getOwnedProducts().clear();
+				getOwnedProducts().addAll((Collection<? extends Product>)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case FactoryPackage.FACTORY__ADDRESS:
-                setAddress(ADDRESS_EDEFAULT);
-                return;
-            case FactoryPackage.FACTORY__WIDTH:
-                setWidth(WIDTH_EDEFAULT);
-                return;
-            case FactoryPackage.FACTORY__LENGTH:
-                setLength(LENGTH_EDEFAULT);
-                return;
-            case FactoryPackage.FACTORY__HEIGHT:
-                setHeight(HEIGHT_EDEFAULT);
-                return;
-            case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
-                getOwnedHumanOperator().clear();
-                return;
-            case FactoryPackage.FACTORY__OWNED_MACHINES:
-                getOwnedMachines().clear();
-                return;
-            case FactoryPackage.FACTORY__OWNED_PRODUCTS:
-                getOwnedProducts().clear();
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case FactoryPackage.FACTORY__ADDRESS:
+				setAddress(ADDRESS_EDEFAULT);
+				return;
+			case FactoryPackage.FACTORY__WIDTH:
+				setWidth(WIDTH_EDEFAULT);
+				return;
+			case FactoryPackage.FACTORY__LENGTH:
+				setLength(LENGTH_EDEFAULT);
+				return;
+			case FactoryPackage.FACTORY__HEIGHT:
+				setHeight(HEIGHT_EDEFAULT);
+				return;
+			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
+				getOwnedHumanOperator().clear();
+				return;
+			case FactoryPackage.FACTORY__OWNED_MACHINES:
+				getOwnedMachines().clear();
+				return;
+			case FactoryPackage.FACTORY__OWNED_PRODUCTS:
+				getOwnedProducts().clear();
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case FactoryPackage.FACTORY__ADDRESS:
-                return ADDRESS_EDEFAULT == null ? address != null : !ADDRESS_EDEFAULT.equals(address);
-            case FactoryPackage.FACTORY__WIDTH:
-                return width != WIDTH_EDEFAULT;
-            case FactoryPackage.FACTORY__LENGTH:
-                return length != LENGTH_EDEFAULT;
-            case FactoryPackage.FACTORY__HEIGHT:
-                return height != HEIGHT_EDEFAULT;
-            case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
-                return ownedHumanOperator != null && !ownedHumanOperator.isEmpty();
-            case FactoryPackage.FACTORY__OWNED_MACHINES:
-                return ownedMachines != null && !ownedMachines.isEmpty();
-            case FactoryPackage.FACTORY__OWNED_PRODUCTS:
-                return ownedProducts != null && !ownedProducts.isEmpty();
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case FactoryPackage.FACTORY__ADDRESS:
+				return ADDRESS_EDEFAULT == null ? address != null : !ADDRESS_EDEFAULT.equals(address);
+			case FactoryPackage.FACTORY__WIDTH:
+				return width != WIDTH_EDEFAULT;
+			case FactoryPackage.FACTORY__LENGTH:
+				return length != LENGTH_EDEFAULT;
+			case FactoryPackage.FACTORY__HEIGHT:
+				return height != HEIGHT_EDEFAULT;
+			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
+				return ownedHumanOperator != null && !ownedHumanOperator.isEmpty();
+			case FactoryPackage.FACTORY__OWNED_MACHINES:
+				return ownedMachines != null && !ownedMachines.isEmpty();
+			case FactoryPackage.FACTORY__OWNED_PRODUCTS:
+				return ownedProducts != null && !ownedProducts.isEmpty();
+		}
+		return super.eIsSet(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-        StringBuffer result = new StringBuffer(super.toString());
-        result.append(" (address: ");
-        result.append(address);
-        result.append(", width: ");
-        result.append(width);
-        result.append(", length: ");
-        result.append(length);
-        result.append(", height: ");
-        result.append(height);
-        result.append(')');
-        return result.toString();
-    }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (address: ");
+		result.append(address);
+		result.append(", width: ");
+		result.append(width);
+		result.append(", length: ");
+		result.append(length);
+		result.append(", height: ");
+		result.append(height);
+		result.append(')');
+		return result.toString();
+	}
 
 } //FactoryImpl

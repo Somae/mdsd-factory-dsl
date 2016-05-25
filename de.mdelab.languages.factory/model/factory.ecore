@@ -1,3 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
-    name="factory" nsURI="http://www.example.org/factory" nsPrefix="factory"/>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="factory" nsURI="http://www.example.org/factory" nsPrefix="factory">
+  <eClassifiers xsi:type="ecore:EClass" name="IdentifiedElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ID" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Factory" eSuperTypes="#//IdentifiedElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="address" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="width" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="height" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedHumanOperator" upperBound="-1"
+        eType="#//HumanOperator" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedMachines" upperBound="-1"
+        eType="#//Machine" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedProducts" upperBound="-1"
+        eType="#//processes/Product" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Machine" eSuperTypes="#//IdentifiedElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="x" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="y" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dimension" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HumanOperator" eSuperTypes="#//IdentifiedElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="FactorySpecification">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedFactories" upperBound="-1"
+        eType="#//Factory" containment="true"/>
+  </eClassifiers>
+  <eSubpackages name="processes" nsURI="http://www.example.org/factory/processes"
+      nsPrefix="factory.processes">
+    <eClassifiers xsi:type="ecore:EClass" name="Product" eSuperTypes="#//IdentifiedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ownedProcess" lowerBound="1"
+          eType="#//processes/Process" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Process" eSuperTypes="#//IdentifiedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ownedTasks" upperBound="-1"
+          eType="#//processes/Task" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Task" eSuperTypes="#//IdentifiedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="machines" upperBound="-1"
+          eType="#//Machine"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="humanOperators" upperBound="-1"
+          eType="#//HumanOperator"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1"
+          eType="#//processes/Material"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1"
+          eType="#//processes/Material"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Material" eSuperTypes="#//IdentifiedElement"/>
+  </eSubpackages>
+</ecore:EPackage>

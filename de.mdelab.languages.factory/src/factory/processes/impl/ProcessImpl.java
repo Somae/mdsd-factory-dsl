@@ -34,118 +34,118 @@ import org.eclipse.emf.ecore.util.InternalEList;
  */
 public class ProcessImpl extends IdentifiedElementImpl implements factory.processes.Process {
     /**
-     * The cached value of the '{@link #getOwnedTasks() <em>Owned Tasks</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getOwnedTasks() <em>Owned Tasks</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getOwnedTasks()
-     * @generated
-     * @ordered
-     */
+	 * @see #getOwnedTasks()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<Task> ownedTasks;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected ProcessImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return ProcessesPackage.Literals.PROCESS;
-    }
+		return ProcessesPackage.Literals.PROCESS;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<Task> getOwnedTasks() {
-        if (ownedTasks == null) {
-            ownedTasks = new EObjectContainmentEList<Task>(Task.class, this, ProcessesPackage.PROCESS__OWNED_TASKS);
-        }
-        return ownedTasks;
-    }
+		if (ownedTasks == null) {
+			ownedTasks = new EObjectContainmentEList<Task>(Task.class, this, ProcessesPackage.PROCESS__OWNED_TASKS);
+		}
+		return ownedTasks;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case ProcessesPackage.PROCESS__OWNED_TASKS:
-                return ((InternalEList<?>)getOwnedTasks()).basicRemove(otherEnd, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case ProcessesPackage.PROCESS__OWNED_TASKS:
+				return ((InternalEList<?>)getOwnedTasks()).basicRemove(otherEnd, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case ProcessesPackage.PROCESS__OWNED_TASKS:
-                return getOwnedTasks();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case ProcessesPackage.PROCESS__OWNED_TASKS:
+				return getOwnedTasks();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case ProcessesPackage.PROCESS__OWNED_TASKS:
-                getOwnedTasks().clear();
-                getOwnedTasks().addAll((Collection<? extends Task>)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case ProcessesPackage.PROCESS__OWNED_TASKS:
+				getOwnedTasks().clear();
+				getOwnedTasks().addAll((Collection<? extends Task>)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case ProcessesPackage.PROCESS__OWNED_TASKS:
-                getOwnedTasks().clear();
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case ProcessesPackage.PROCESS__OWNED_TASKS:
+				getOwnedTasks().clear();
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case ProcessesPackage.PROCESS__OWNED_TASKS:
-                return ownedTasks != null && !ownedTasks.isEmpty();
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case ProcessesPackage.PROCESS__OWNED_TASKS:
+				return ownedTasks != null && !ownedTasks.isEmpty();
+		}
+		return super.eIsSet(featureID);
+	}
 
 } //ProcessImpl

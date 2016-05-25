@@ -14,56 +14,56 @@ import org.eclipse.emf.ecore.EFactory;
  */
 public interface ProcessesFactory extends EFactory {
     /**
-     * The singleton instance of the factory.
-     * <!-- begin-user-doc -->
+	 * The singleton instance of the factory.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     ProcessesFactory eINSTANCE = factory.processes.impl.ProcessesFactoryImpl.init();
 
     /**
-     * Returns a new object of class '<em>Product</em>'.
-     * <!-- begin-user-doc -->
+	 * Returns a new object of class '<em>Product</em>'.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @return a new object of class '<em>Product</em>'.
-     * @generated
-     */
+	 * @return a new object of class '<em>Product</em>'.
+	 * @generated
+	 */
     Product createProduct();
 
     /**
-     * Returns a new object of class '<em>Process</em>'.
-     * <!-- begin-user-doc -->
+	 * Returns a new object of class '<em>Process</em>'.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @return a new object of class '<em>Process</em>'.
-     * @generated
-     */
+	 * @return a new object of class '<em>Process</em>'.
+	 * @generated
+	 */
     Process createProcess();
 
     /**
-     * Returns a new object of class '<em>Task</em>'.
-     * <!-- begin-user-doc -->
+	 * Returns a new object of class '<em>Task</em>'.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @return a new object of class '<em>Task</em>'.
-     * @generated
-     */
+	 * @return a new object of class '<em>Task</em>'.
+	 * @generated
+	 */
     Task createTask();
 
     /**
-     * Returns a new object of class '<em>Material</em>'.
-     * <!-- begin-user-doc -->
+	 * Returns a new object of class '<em>Material</em>'.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @return a new object of class '<em>Material</em>'.
-     * @generated
-     */
+	 * @return a new object of class '<em>Material</em>'.
+	 * @generated
+	 */
     Material createMaterial();
 
     /**
-     * Returns the package supported by this factory.
-     * <!-- begin-user-doc -->
+	 * Returns the package supported by this factory.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @return the package supported by this factory.
-     * @generated
-     */
+	 * @return the package supported by this factory.
+	 * @generated
+	 */
     ProcessesPackage getProcessesPackage();
 
 } //ProcessesFactory

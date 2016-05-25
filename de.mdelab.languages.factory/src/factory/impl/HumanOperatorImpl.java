@@ -16,22 +16,22 @@ import org.eclipse.emf.ecore.EClass;
  */
 public class HumanOperatorImpl extends IdentifiedElementImpl implements HumanOperator {
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected HumanOperatorImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return FactoryPackage.Literals.HUMAN_OPERATOR;
-    }
+		return FactoryPackage.Literals.HUMAN_OPERATOR;
+	}
 
 } //HumanOperatorImpl

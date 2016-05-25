@@ -16,55 +16,55 @@ import junit.textui.TestRunner;
 public class FactoryTest extends IdentifiedElementTest {
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public static void main(String[] args) {
-        TestRunner.run(FactoryTest.class);
-    }
+		TestRunner.run(FactoryTest.class);
+	}
 
     /**
-     * Constructs a new Factory test case with the given name.
-     * <!-- begin-user-doc -->
+	 * Constructs a new Factory test case with the given name.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public FactoryTest(String name) {
-        super(name);
-    }
+		super(name);
+	}
 
     /**
-     * Returns the fixture for this Factory test case.
-     * <!-- begin-user-doc -->
+	 * Returns the fixture for this Factory test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected Factory getFixture() {
-        return (Factory)fixture;
-    }
+		return (Factory)fixture;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#setUp()
-     * @generated
-     */
+	 * @see junit.framework.TestCase#setUp()
+	 * @generated
+	 */
     @Override
     protected void setUp() throws Exception {
-        setFixture(FactoryFactory.eINSTANCE.createFactory());
-    }
+		setFixture(FactoryFactory.eINSTANCE.createFactory());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#tearDown()
-     * @generated
-     */
+	 * @see junit.framework.TestCase#tearDown()
+	 * @generated
+	 */
     @Override
     protected void tearDown() throws Exception {
-        setFixture(null);
-    }
+		setFixture(null);
+	}
 
 } //FactoryTest

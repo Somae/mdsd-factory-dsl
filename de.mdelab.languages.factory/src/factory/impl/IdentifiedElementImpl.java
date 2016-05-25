@@ -28,190 +28,190 @@ import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
  */
 public abstract class IdentifiedElementImpl extends MinimalEObjectImpl.Container implements IdentifiedElement {
     /**
-     * The default value of the '{@link #getID() <em>ID</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getID() <em>ID</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getID()
-     * @generated
-     * @ordered
-     */
+	 * @see #getID()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String ID_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getID() <em>ID</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getID() <em>ID</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getID()
-     * @generated
-     * @ordered
-     */
+	 * @see #getID()
+	 * @generated
+	 * @ordered
+	 */
     protected String id = ID_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String NAME_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected String name = NAME_EDEFAULT;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected IdentifiedElementImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return FactoryPackage.Literals.IDENTIFIED_ELEMENT;
-    }
+		return FactoryPackage.Literals.IDENTIFIED_ELEMENT;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getID() {
-        return id;
-    }
+		return id;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setID(String newID) {
-        String oldID = id;
-        id = newID;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, FactoryPackage.IDENTIFIED_ELEMENT__ID, oldID, id));
-    }
+		String oldID = id;
+		id = newID;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, FactoryPackage.IDENTIFIED_ELEMENT__ID, oldID, id));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getName() {
-        return name;
-    }
+		return name;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setName(String newName) {
-        String oldName = name;
-        name = newName;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, FactoryPackage.IDENTIFIED_ELEMENT__NAME, oldName, name));
-    }
+		String oldName = name;
+		name = newName;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, FactoryPackage.IDENTIFIED_ELEMENT__NAME, oldName, name));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case FactoryPackage.IDENTIFIED_ELEMENT__ID:
-                return getID();
-            case FactoryPackage.IDENTIFIED_ELEMENT__NAME:
-                return getName();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case FactoryPackage.IDENTIFIED_ELEMENT__ID:
+				return getID();
+			case FactoryPackage.IDENTIFIED_ELEMENT__NAME:
+				return getName();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case FactoryPackage.IDENTIFIED_ELEMENT__ID:
-                setID((String)newValue);
-                return;
-            case FactoryPackage.IDENTIFIED_ELEMENT__NAME:
-                setName((String)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case FactoryPackage.IDENTIFIED_ELEMENT__ID:
+				setID((String)newValue);
+				return;
+			case FactoryPackage.IDENTIFIED_ELEMENT__NAME:
+				setName((String)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case FactoryPackage.IDENTIFIED_ELEMENT__ID:
-                setID(ID_EDEFAULT);
-                return;
-            case FactoryPackage.IDENTIFIED_ELEMENT__NAME:
-                setName(NAME_EDEFAULT);
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case FactoryPackage.IDENTIFIED_ELEMENT__ID:
+				setID(ID_EDEFAULT);
+				return;
+			case FactoryPackage.IDENTIFIED_ELEMENT__NAME:
+				setName(NAME_EDEFAULT);
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case FactoryPackage.IDENTIFIED_ELEMENT__ID:
-                return ID_EDEFAULT == null ? id != null : !ID_EDEFAULT.equals(id);
-            case FactoryPackage.IDENTIFIED_ELEMENT__NAME:
-                return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case FactoryPackage.IDENTIFIED_ELEMENT__ID:
+				return ID_EDEFAULT == null ? id != null : !ID_EDEFAULT.equals(id);
+			case FactoryPackage.IDENTIFIED_ELEMENT__NAME:
+				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
+		}
+		return super.eIsSet(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-        StringBuffer result = new StringBuffer(super.toString());
-        result.append(" (ID: ");
-        result.append(id);
-        result.append(", name: ");
-        result.append(name);
-        result.append(')');
-        return result.toString();
-    }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (ID: ");
+		result.append(id);
+		result.append(", name: ");
+		result.append(name);
+		result.append(')');
+		return result.toString();
+	}
 
 } //IdentifiedElementImpl

@@ -35,118 +35,118 @@ import org.eclipse.emf.ecore.util.InternalEList;
  */
 public class FactorySpecificationImpl extends MinimalEObjectImpl.Container implements FactorySpecification {
     /**
-     * The cached value of the '{@link #getOwnedFactories() <em>Owned Factories</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getOwnedFactories() <em>Owned Factories</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getOwnedFactories()
-     * @generated
-     * @ordered
-     */
+	 * @see #getOwnedFactories()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<Factory> ownedFactories;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected FactorySpecificationImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return FactoryPackage.Literals.FACTORY_SPECIFICATION;
-    }
+		return FactoryPackage.Literals.FACTORY_SPECIFICATION;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<Factory> getOwnedFactories() {
-        if (ownedFactories == null) {
-            ownedFactories = new EObjectContainmentEList<Factory>(Factory.class, this, FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES);
-        }
-        return ownedFactories;
-    }
+		if (ownedFactories == null) {
+			ownedFactories = new EObjectContainmentEList<Factory>(Factory.class, this, FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES);
+		}
+		return ownedFactories;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
-                return ((InternalEList<?>)getOwnedFactories()).basicRemove(otherEnd, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
+				return ((InternalEList<?>)getOwnedFactories()).basicRemove(otherEnd, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
-                return getOwnedFactories();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
+				return getOwnedFactories();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
-                getOwnedFactories().clear();
-                getOwnedFactories().addAll((Collection<? extends Factory>)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
+				getOwnedFactories().clear();
+				getOwnedFactories().addAll((Collection<? extends Factory>)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
-                getOwnedFactories().clear();
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
+				getOwnedFactories().clear();
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
-                return ownedFactories != null && !ownedFactories.isEmpty();
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
+				return ownedFactories != null && !ownedFactories.isEmpty();
+		}
+		return super.eIsSet(featureID);
+	}
 
 } //FactorySpecificationImpl

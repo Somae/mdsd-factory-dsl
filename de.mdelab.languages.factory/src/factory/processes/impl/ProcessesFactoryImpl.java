@@ -24,109 +24,109 @@ import org.eclipse.emf.ecore.plugin.EcorePlugin;
  */
 public class ProcessesFactoryImpl extends EFactoryImpl implements ProcessesFactory {
     /**
-     * Creates the default factory implementation.
-     * <!-- begin-user-doc -->
+	 * Creates the default factory implementation.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public static ProcessesFactory init() {
-        try {
-            ProcessesFactory theProcessesFactory = (ProcessesFactory)EPackage.Registry.INSTANCE.getEFactory(ProcessesPackage.eNS_URI);
-            if (theProcessesFactory != null) {
-                return theProcessesFactory;
-            }
-        }
-        catch (Exception exception) {
-            EcorePlugin.INSTANCE.log(exception);
-        }
-        return new ProcessesFactoryImpl();
-    }
+		try {
+			ProcessesFactory theProcessesFactory = (ProcessesFactory)EPackage.Registry.INSTANCE.getEFactory(ProcessesPackage.eNS_URI);
+			if (theProcessesFactory != null) {
+				return theProcessesFactory;
+			}
+		}
+		catch (Exception exception) {
+			EcorePlugin.INSTANCE.log(exception);
+		}
+		return new ProcessesFactoryImpl();
+	}
 
     /**
-     * Creates an instance of the factory.
-     * <!-- begin-user-doc -->
+	 * Creates an instance of the factory.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public ProcessesFactoryImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public EObject create(EClass eClass) {
-        switch (eClass.getClassifierID()) {
-            case ProcessesPackage.PRODUCT: return createProduct();
-            case ProcessesPackage.PROCESS: return createProcess();
-            case ProcessesPackage.TASK: return createTask();
-            case ProcessesPackage.MATERIAL: return createMaterial();
-            default:
-                throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
-        }
-    }
+		switch (eClass.getClassifierID()) {
+			case ProcessesPackage.PRODUCT: return createProduct();
+			case ProcessesPackage.PROCESS: return createProcess();
+			case ProcessesPackage.TASK: return createTask();
+			case ProcessesPackage.MATERIAL: return createMaterial();
+			default:
+				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
+		}
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public Product createProduct() {
-        ProductImpl product = new ProductImpl();
-        return product;
-    }
+		ProductImpl product = new ProductImpl();
+		return product;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public factory.processes.Process createProcess() {
-        ProcessImpl process = new ProcessImpl();
-        return process;
-    }
+		ProcessImpl process = new ProcessImpl();
+		return process;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public Task createTask() {
-        TaskImpl task = new TaskImpl();
-        return task;
-    }
+		TaskImpl task = new TaskImpl();
+		return task;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public Material createMaterial() {
-        MaterialImpl material = new MaterialImpl();
-        return material;
-    }
+		MaterialImpl material = new MaterialImpl();
+		return material;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public ProcessesPackage getProcessesPackage() {
-        return (ProcessesPackage)getEPackage();
-    }
+		return (ProcessesPackage)getEPackage();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @deprecated
-     * @generated
-     */
+	 * @deprecated
+	 * @generated
+	 */
     @Deprecated
     public static ProcessesPackage getPackage() {
-        return ProcessesPackage.eINSTANCE;
-    }
+		return ProcessesPackage.eINSTANCE;
+	}
 
 } //ProcessesFactoryImpl

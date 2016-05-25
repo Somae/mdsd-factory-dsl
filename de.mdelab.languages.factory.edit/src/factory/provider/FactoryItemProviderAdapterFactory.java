@@ -34,238 +34,238 @@ import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
  */
 public class FactoryItemProviderAdapterFactory extends FactoryAdapterFactory implements ComposeableAdapterFactory, IChangeNotifier, IDisposable {
     /**
-     * This keeps track of the root adapter factory that delegates to this adapter factory.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the root adapter factory that delegates to this adapter factory.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected ComposedAdapterFactory parentAdapterFactory;
 
     /**
-     * This is used to implement {@link org.eclipse.emf.edit.provider.IChangeNotifier}.
-     * <!-- begin-user-doc -->
+	 * This is used to implement {@link org.eclipse.emf.edit.provider.IChangeNotifier}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected IChangeNotifier changeNotifier = new ChangeNotifier();
 
     /**
-     * This keeps track of all the supported types checked by {@link #isFactoryForType isFactoryForType}.
-     * <!-- begin-user-doc -->
+	 * This keeps track of all the supported types checked by {@link #isFactoryForType isFactoryForType}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected Collection<Object> supportedTypes = new ArrayList<Object>();
 
     /**
-     * This constructs an instance.
-     * <!-- begin-user-doc -->
+	 * This constructs an instance.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public FactoryItemProviderAdapterFactory() {
-        supportedTypes.add(IEditingDomainItemProvider.class);
-        supportedTypes.add(IStructuredItemContentProvider.class);
-        supportedTypes.add(ITreeItemContentProvider.class);
-        supportedTypes.add(IItemLabelProvider.class);
-        supportedTypes.add(IItemPropertySource.class);
-    }
+		supportedTypes.add(IEditingDomainItemProvider.class);
+		supportedTypes.add(IStructuredItemContentProvider.class);
+		supportedTypes.add(ITreeItemContentProvider.class);
+		supportedTypes.add(IItemLabelProvider.class);
+		supportedTypes.add(IItemPropertySource.class);
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link factory.Factory} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link factory.Factory} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected FactoryItemProvider factoryItemProvider;
 
     /**
-     * This creates an adapter for a {@link factory.Factory}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link factory.Factory}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createFactoryAdapter() {
-        if (factoryItemProvider == null) {
-            factoryItemProvider = new FactoryItemProvider(this);
-        }
+		if (factoryItemProvider == null) {
+			factoryItemProvider = new FactoryItemProvider(this);
+		}
 
-        return factoryItemProvider;
-    }
+		return factoryItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link factory.Machine} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link factory.Machine} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected MachineItemProvider machineItemProvider;
 
     /**
-     * This creates an adapter for a {@link factory.Machine}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link factory.Machine}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createMachineAdapter() {
-        if (machineItemProvider == null) {
-            machineItemProvider = new MachineItemProvider(this);
-        }
+		if (machineItemProvider == null) {
+			machineItemProvider = new MachineItemProvider(this);
+		}
 
-        return machineItemProvider;
-    }
+		return machineItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link factory.HumanOperator} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link factory.HumanOperator} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected HumanOperatorItemProvider humanOperatorItemProvider;
 
     /**
-     * This creates an adapter for a {@link factory.HumanOperator}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link factory.HumanOperator}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createHumanOperatorAdapter() {
-        if (humanOperatorItemProvider == null) {
-            humanOperatorItemProvider = new HumanOperatorItemProvider(this);
-        }
+		if (humanOperatorItemProvider == null) {
+			humanOperatorItemProvider = new HumanOperatorItemProvider(this);
+		}
 
-        return humanOperatorItemProvider;
-    }
+		return humanOperatorItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link factory.FactorySpecification} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link factory.FactorySpecification} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected FactorySpecificationItemProvider factorySpecificationItemProvider;
 
     /**
-     * This creates an adapter for a {@link factory.FactorySpecification}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link factory.FactorySpecification}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createFactorySpecificationAdapter() {
-        if (factorySpecificationItemProvider == null) {
-            factorySpecificationItemProvider = new FactorySpecificationItemProvider(this);
-        }
+		if (factorySpecificationItemProvider == null) {
+			factorySpecificationItemProvider = new FactorySpecificationItemProvider(this);
+		}
 
-        return factorySpecificationItemProvider;
-    }
+		return factorySpecificationItemProvider;
+	}
 
     /**
-     * This returns the root adapter factory that contains this factory.
-     * <!-- begin-user-doc -->
+	 * This returns the root adapter factory that contains this factory.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public ComposeableAdapterFactory getRootAdapterFactory() {
-        return parentAdapterFactory == null ? this : parentAdapterFactory.getRootAdapterFactory();
-    }
+		return parentAdapterFactory == null ? this : parentAdapterFactory.getRootAdapterFactory();
+	}
 
     /**
-     * This sets the composed adapter factory that contains this factory.
-     * <!-- begin-user-doc -->
+	 * This sets the composed adapter factory that contains this factory.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setParentAdapterFactory(ComposedAdapterFactory parentAdapterFactory) {
-        this.parentAdapterFactory = parentAdapterFactory;
-    }
+		this.parentAdapterFactory = parentAdapterFactory;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean isFactoryForType(Object type) {
-        return supportedTypes.contains(type) || super.isFactoryForType(type);
-    }
+		return supportedTypes.contains(type) || super.isFactoryForType(type);
+	}
 
     /**
-     * This implementation substitutes the factory itself as the key for the adapter.
-     * <!-- begin-user-doc -->
+	 * This implementation substitutes the factory itself as the key for the adapter.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter adapt(Notifier notifier, Object type) {
-        return super.adapt(notifier, this);
-    }
+		return super.adapt(notifier, this);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object adapt(Object object, Object type) {
-        if (isFactoryForType(type)) {
-            Object adapter = super.adapt(object, type);
-            if (!(type instanceof Class<?>) || (((Class<?>)type).isInstance(adapter))) {
-                return adapter;
-            }
-        }
+		if (isFactoryForType(type)) {
+			Object adapter = super.adapt(object, type);
+			if (!(type instanceof Class<?>) || (((Class<?>)type).isInstance(adapter))) {
+				return adapter;
+			}
+		}
 
-        return null;
-    }
+		return null;
+	}
 
     /**
-     * This adds a listener.
-     * <!-- begin-user-doc -->
+	 * This adds a listener.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void addListener(INotifyChangedListener notifyChangedListener) {
-        changeNotifier.addListener(notifyChangedListener);
-    }
+		changeNotifier.addListener(notifyChangedListener);
+	}
 
     /**
-     * This removes a listener.
-     * <!-- begin-user-doc -->
+	 * This removes a listener.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void removeListener(INotifyChangedListener notifyChangedListener) {
-        changeNotifier.removeListener(notifyChangedListener);
-    }
+		changeNotifier.removeListener(notifyChangedListener);
+	}
 
     /**
-     * This delegates to {@link #changeNotifier} and to {@link #parentAdapterFactory}.
-     * <!-- begin-user-doc -->
+	 * This delegates to {@link #changeNotifier} and to {@link #parentAdapterFactory}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void fireNotifyChanged(Notification notification) {
-        changeNotifier.fireNotifyChanged(notification);
+		changeNotifier.fireNotifyChanged(notification);
 
-        if (parentAdapterFactory != null) {
-            parentAdapterFactory.fireNotifyChanged(notification);
-        }
-    }
+		if (parentAdapterFactory != null) {
+			parentAdapterFactory.fireNotifyChanged(notification);
+		}
+	}
 
     /**
-     * This disposes all of the item providers created by this factory. 
-     * <!-- begin-user-doc -->
+	 * This disposes all of the item providers created by this factory. 
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void dispose() {
-        if (factoryItemProvider != null) factoryItemProvider.dispose();
-        if (machineItemProvider != null) machineItemProvider.dispose();
-        if (humanOperatorItemProvider != null) humanOperatorItemProvider.dispose();
-        if (factorySpecificationItemProvider != null) factorySpecificationItemProvider.dispose();
-    }
+		if (factoryItemProvider != null) factoryItemProvider.dispose();
+		if (machineItemProvider != null) machineItemProvider.dispose();
+		if (humanOperatorItemProvider != null) humanOperatorItemProvider.dispose();
+		if (factorySpecificationItemProvider != null) factorySpecificationItemProvider.dispose();
+	}
 
 }

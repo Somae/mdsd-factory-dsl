@@ -30,232 +30,232 @@ import org.eclipse.emf.edit.provider.ViewerNotification;
  */
 public class FactoryItemProvider extends IdentifiedElementItemProvider {
     /**
-     * This constructs an instance from a factory and a notifier.
-     * <!-- begin-user-doc -->
+	 * This constructs an instance from a factory and a notifier.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public FactoryItemProvider(AdapterFactory adapterFactory) {
-        super(adapterFactory);
-    }
+		super(adapterFactory);
+	}
 
     /**
-     * This returns the property descriptors for the adapted class.
-     * <!-- begin-user-doc -->
+	 * This returns the property descriptors for the adapted class.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public List<IItemPropertyDescriptor> getPropertyDescriptors(Object object) {
-        if (itemPropertyDescriptors == null) {
-            super.getPropertyDescriptors(object);
+		if (itemPropertyDescriptors == null) {
+			super.getPropertyDescriptors(object);
 
-            addAddressPropertyDescriptor(object);
-            addWidthPropertyDescriptor(object);
-            addLengthPropertyDescriptor(object);
-            addHeightPropertyDescriptor(object);
-        }
-        return itemPropertyDescriptors;
-    }
+			addAddressPropertyDescriptor(object);
+			addWidthPropertyDescriptor(object);
+			addLengthPropertyDescriptor(object);
+			addHeightPropertyDescriptor(object);
+		}
+		return itemPropertyDescriptors;
+	}
 
     /**
-     * This adds a property descriptor for the Address feature.
-     * <!-- begin-user-doc -->
+	 * This adds a property descriptor for the Address feature.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected void addAddressPropertyDescriptor(Object object) {
-        itemPropertyDescriptors.add
-            (createItemPropertyDescriptor
-                (((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-                 getResourceLocator(),
-                 getString("_UI_Factory_address_feature"),
-                 getString("_UI_PropertyDescriptor_description", "_UI_Factory_address_feature", "_UI_Factory_type"),
-                 FactoryPackage.Literals.FACTORY__ADDRESS,
-                 true,
-                 false,
-                 false,
-                 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-                 null,
-                 null));
-    }
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Factory_address_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Factory_address_feature", "_UI_Factory_type"),
+				 FactoryPackage.Literals.FACTORY__ADDRESS,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
 
     /**
-     * This adds a property descriptor for the Width feature.
-     * <!-- begin-user-doc -->
+	 * This adds a property descriptor for the Width feature.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected void addWidthPropertyDescriptor(Object object) {
-        itemPropertyDescriptors.add
-            (createItemPropertyDescriptor
-                (((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-                 getResourceLocator(),
-                 getString("_UI_Factory_width_feature"),
-                 getString("_UI_PropertyDescriptor_description", "_UI_Factory_width_feature", "_UI_Factory_type"),
-                 FactoryPackage.Literals.FACTORY__WIDTH,
-                 true,
-                 false,
-                 false,
-                 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
-                 null,
-                 null));
-    }
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Factory_width_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Factory_width_feature", "_UI_Factory_type"),
+				 FactoryPackage.Literals.FACTORY__WIDTH,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
 
     /**
-     * This adds a property descriptor for the Length feature.
-     * <!-- begin-user-doc -->
+	 * This adds a property descriptor for the Length feature.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected void addLengthPropertyDescriptor(Object object) {
-        itemPropertyDescriptors.add
-            (createItemPropertyDescriptor
-                (((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-                 getResourceLocator(),
-                 getString("_UI_Factory_length_feature"),
-                 getString("_UI_PropertyDescriptor_description", "_UI_Factory_length_feature", "_UI_Factory_type"),
-                 FactoryPackage.Literals.FACTORY__LENGTH,
-                 true,
-                 false,
-                 false,
-                 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
-                 null,
-                 null));
-    }
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Factory_length_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Factory_length_feature", "_UI_Factory_type"),
+				 FactoryPackage.Literals.FACTORY__LENGTH,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
 
     /**
-     * This adds a property descriptor for the Height feature.
-     * <!-- begin-user-doc -->
+	 * This adds a property descriptor for the Height feature.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected void addHeightPropertyDescriptor(Object object) {
-        itemPropertyDescriptors.add
-            (createItemPropertyDescriptor
-                (((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-                 getResourceLocator(),
-                 getString("_UI_Factory_height_feature"),
-                 getString("_UI_PropertyDescriptor_description", "_UI_Factory_height_feature", "_UI_Factory_type"),
-                 FactoryPackage.Literals.FACTORY__HEIGHT,
-                 true,
-                 false,
-                 false,
-                 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
-                 null,
-                 null));
-    }
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Factory_height_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Factory_height_feature", "_UI_Factory_type"),
+				 FactoryPackage.Literals.FACTORY__HEIGHT,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
 
     /**
-     * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
-     * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
-     * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
-     * <!-- begin-user-doc -->
+	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
+	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
+	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
-        if (childrenFeatures == null) {
-            super.getChildrenFeatures(object);
-            childrenFeatures.add(FactoryPackage.Literals.FACTORY__OWNED_HUMAN_OPERATOR);
-            childrenFeatures.add(FactoryPackage.Literals.FACTORY__OWNED_MACHINES);
-            childrenFeatures.add(FactoryPackage.Literals.FACTORY__OWNED_PRODUCTS);
-        }
-        return childrenFeatures;
-    }
+		if (childrenFeatures == null) {
+			super.getChildrenFeatures(object);
+			childrenFeatures.add(FactoryPackage.Literals.FACTORY__OWNED_HUMAN_OPERATOR);
+			childrenFeatures.add(FactoryPackage.Literals.FACTORY__OWNED_MACHINES);
+			childrenFeatures.add(FactoryPackage.Literals.FACTORY__OWNED_PRODUCTS);
+		}
+		return childrenFeatures;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EStructuralFeature getChildFeature(Object object, Object child) {
-        // Check the type of the specified child object and return the proper feature to use for
-        // adding (see {@link AddCommand}) it as a child.
+		// Check the type of the specified child object and return the proper feature to use for
+		// adding (see {@link AddCommand}) it as a child.
 
-        return super.getChildFeature(object, child);
-    }
+		return super.getChildFeature(object, child);
+	}
 
     /**
-     * This returns Factory.gif.
-     * <!-- begin-user-doc -->
+	 * This returns Factory.gif.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object getImage(Object object) {
-        return overlayImage(object, getResourceLocator().getImage("full/obj16/Factory"));
-    }
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/Factory"));
+	}
 
     /**
-     * This returns the label text for the adapted class.
-     * <!-- begin-user-doc -->
+	 * This returns the label text for the adapted class.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String getText(Object object) {
-        String label = ((Factory)object).getName();
-        return label == null || label.length() == 0 ?
-            getString("_UI_Factory_type") :
-            getString("_UI_Factory_type") + " " + label;
-    }
+		String label = ((Factory)object).getName();
+		return label == null || label.length() == 0 ?
+			getString("_UI_Factory_type") :
+			getString("_UI_Factory_type") + " " + label;
+	}
     
 
     /**
-     * This handles model notifications by calling {@link #updateChildren} to update any cached
-     * children and by creating a viewer notification, which it passes to {@link #fireNotifyChanged}.
-     * <!-- begin-user-doc -->
+	 * This handles model notifications by calling {@link #updateChildren} to update any cached
+	 * children and by creating a viewer notification, which it passes to {@link #fireNotifyChanged}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void notifyChanged(Notification notification) {
-        updateChildren(notification);
+		updateChildren(notification);
 
-        switch (notification.getFeatureID(Factory.class)) {
-            case FactoryPackage.FACTORY__ADDRESS:
-            case FactoryPackage.FACTORY__WIDTH:
-            case FactoryPackage.FACTORY__LENGTH:
-            case FactoryPackage.FACTORY__HEIGHT:
-                fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
-                return;
-            case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
-            case FactoryPackage.FACTORY__OWNED_MACHINES:
-            case FactoryPackage.FACTORY__OWNED_PRODUCTS:
-                fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
-                return;
-        }
-        super.notifyChanged(notification);
-    }
+		switch (notification.getFeatureID(Factory.class)) {
+			case FactoryPackage.FACTORY__ADDRESS:
+			case FactoryPackage.FACTORY__WIDTH:
+			case FactoryPackage.FACTORY__LENGTH:
+			case FactoryPackage.FACTORY__HEIGHT:
+				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
+				return;
+			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
+			case FactoryPackage.FACTORY__OWNED_MACHINES:
+			case FactoryPackage.FACTORY__OWNED_PRODUCTS:
+				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
+				return;
+		}
+		super.notifyChanged(notification);
+	}
 
     /**
-     * This adds {@link org.eclipse.emf.edit.command.CommandParameter}s describing the children
-     * that can be created under this object.
-     * <!-- begin-user-doc -->
+	 * This adds {@link org.eclipse.emf.edit.command.CommandParameter}s describing the children
+	 * that can be created under this object.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
-        super.collectNewChildDescriptors(newChildDescriptors, object);
+		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-        newChildDescriptors.add
-            (createChildParameter
-                (FactoryPackage.Literals.FACTORY__OWNED_HUMAN_OPERATOR,
-                 FactoryFactory.eINSTANCE.createHumanOperator()));
+		newChildDescriptors.add
+			(createChildParameter
+				(FactoryPackage.Literals.FACTORY__OWNED_HUMAN_OPERATOR,
+				 FactoryFactory.eINSTANCE.createHumanOperator()));
 
-        newChildDescriptors.add
-            (createChildParameter
-                (FactoryPackage.Literals.FACTORY__OWNED_MACHINES,
-                 FactoryFactory.eINSTANCE.createMachine()));
+		newChildDescriptors.add
+			(createChildParameter
+				(FactoryPackage.Literals.FACTORY__OWNED_MACHINES,
+				 FactoryFactory.eINSTANCE.createMachine()));
 
-        newChildDescriptors.add
-            (createChildParameter
-                (FactoryPackage.Literals.FACTORY__OWNED_PRODUCTS,
-                 ProcessesFactory.eINSTANCE.createProduct()));
-    }
+		newChildDescriptors.add
+			(createChildParameter
+				(FactoryPackage.Literals.FACTORY__OWNED_PRODUCTS,
+				 ProcessesFactory.eINSTANCE.createProduct()));
+	}
 
 }

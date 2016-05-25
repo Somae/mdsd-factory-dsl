@@ -18,55 +18,55 @@ import junit.textui.TestRunner;
 public class MaterialTest extends IdentifiedElementTest {
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public static void main(String[] args) {
-        TestRunner.run(MaterialTest.class);
-    }
+		TestRunner.run(MaterialTest.class);
+	}
 
     /**
-     * Constructs a new Material test case with the given name.
-     * <!-- begin-user-doc -->
+	 * Constructs a new Material test case with the given name.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public MaterialTest(String name) {
-        super(name);
-    }
+		super(name);
+	}
 
     /**
-     * Returns the fixture for this Material test case.
-     * <!-- begin-user-doc -->
+	 * Returns the fixture for this Material test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected Material getFixture() {
-        return (Material)fixture;
-    }
+		return (Material)fixture;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#setUp()
-     * @generated
-     */
+	 * @see junit.framework.TestCase#setUp()
+	 * @generated
+	 */
     @Override
     protected void setUp() throws Exception {
-        setFixture(ProcessesFactory.eINSTANCE.createMaterial());
-    }
+		setFixture(ProcessesFactory.eINSTANCE.createMaterial());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#tearDown()
-     * @generated
-     */
+	 * @see junit.framework.TestCase#tearDown()
+	 * @generated
+	 */
     @Override
     protected void tearDown() throws Exception {
-        setFixture(null);
-    }
+		setFixture(null);
+	}
 
 } //MaterialTest
