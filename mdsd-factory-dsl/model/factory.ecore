@@ -32,7 +32,8 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="ownedFactories" upperBound="-1"
         eType="#//Factory" containment="true"/>
   </eClassifiers>
-  <eSubpackages name="processes">
+  <eSubpackages name="processes" nsURI="http://www.example.org/factory/processes"
+      nsPrefix="factory.processes">
     <eClassifiers xsi:type="ecore:EClass" name="Product" eSuperTypes="#//IdentifiedElement">
       <eStructuralFeatures xsi:type="ecore:EReference" name="ownedProcess" lowerBound="1"
           eType="#//processes/Process" containment="true"/>

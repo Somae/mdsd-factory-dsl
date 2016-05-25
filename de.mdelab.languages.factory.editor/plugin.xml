@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated factory -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="factory.presentation.FactoryModelWizardID"
+            name="%_UI_FactoryModelWizard_label"
+            class="factory.presentation.FactoryModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/FactoryModelFile.gif">
+         <description>%_UI_FactoryModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated factory -->
+      <editor
+            id="factory.presentation.FactoryEditorID"
+            name="%_UI_FactoryEditor_label"
+            icon="icons/full/obj16/FactoryModelFile.gif"
+            extensions="factory"
+            class="factory.presentation.FactoryEditor"
+            contributorClass="factory.presentation.FactoryActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated factory -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="factory.processes.presentation.ProcessesModelWizardID"
+            name="%_UI_ProcessesModelWizard_label"
+            class="factory.processes.presentation.ProcessesModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ProcessesModelFile.gif">
+         <description>%_UI_ProcessesModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated factory -->
+      <editor
+            id="factory.processes.presentation.ProcessesEditorID"
+            name="%_UI_ProcessesEditor_label"
+            icon="icons/full/obj16/ProcessesModelFile.gif"
+            extensions="processes"
+            class="factory.processes.presentation.ProcessesEditor"
+            contributorClass="factory.processes.presentation.ProcessesActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
