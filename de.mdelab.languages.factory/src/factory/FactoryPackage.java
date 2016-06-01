@@ -167,15 +167,15 @@ public interface FactoryPackage extends EPackage {
     int FACTORY__HEIGHT = IDENTIFIED_ELEMENT_FEATURE_COUNT + 3;
 
     /**
-	 * The feature id for the '<em><b>Owned Human Operator</b></em>' containment reference list.
+	 * The feature id for the '<em><b>Owned Human Operators</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    int FACTORY__OWNED_HUMAN_OPERATOR = IDENTIFIED_ELEMENT_FEATURE_COUNT + 4;
+	int FACTORY__OWNED_HUMAN_OPERATORS = IDENTIFIED_ELEMENT_FEATURE_COUNT + 4;
 
-    /**
+				/**
 	 * The feature id for the '<em><b>Owned Machines</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -455,17 +455,17 @@ public interface FactoryPackage extends EPackage {
     EAttribute getFactory_Height();
 
     /**
-	 * Returns the meta object for the containment reference list '{@link factory.Factory#getOwnedHumanOperator <em>Owned Human Operator</em>}'.
+	 * Returns the meta object for the containment reference list '{@link factory.Factory#getOwnedHumanOperators <em>Owned Human Operators</em>}'.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Owned Human Operator</em>'.
-	 * @see factory.Factory#getOwnedHumanOperator()
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Owned Human Operators</em>'.
+	 * @see factory.Factory#getOwnedHumanOperators()
 	 * @see #getFactory()
 	 * @generated
 	 */
-    EReference getFactory_OwnedHumanOperator();
+	EReference getFactory_OwnedHumanOperators();
 
-    /**
+				/**
 	 * Returns the meta object for the containment reference list '{@link factory.Factory#getOwnedMachines <em>Owned Machines</em>}'.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -653,14 +653,14 @@ public interface FactoryPackage extends EPackage {
         EAttribute FACTORY__HEIGHT = eINSTANCE.getFactory_Height();
 
         /**
-		 * The meta object literal for the '<em><b>Owned Human Operator</b></em>' containment reference list feature.
+		 * The meta object literal for the '<em><b>Owned Human Operators</b></em>' containment reference list feature.
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        EReference FACTORY__OWNED_HUMAN_OPERATOR = eINSTANCE.getFactory_OwnedHumanOperator();
+		EReference FACTORY__OWNED_HUMAN_OPERATORS = eINSTANCE.getFactory_OwnedHumanOperators();
 
-        /**
+								/**
 		 * The meta object literal for the '<em><b>Owned Machines</b></em>' containment reference list feature.
 		 * <!-- begin-user-doc -->
          * <!-- end-user-doc -->

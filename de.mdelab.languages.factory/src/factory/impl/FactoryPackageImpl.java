@@ -203,14 +203,14 @@ public class FactoryPackageImpl extends EPackageImpl implements FactoryPackage {
 
     /**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EReference getFactory_OwnedHumanOperator() {
+	public EReference getFactory_OwnedHumanOperators() {
 		return (EReference)factoryEClass.getEStructuralFeatures().get(4);
 	}
 
-    /**
+				/**
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
@@ -328,7 +328,7 @@ public class FactoryPackageImpl extends EPackageImpl implements FactoryPackage {
 		createEAttribute(factoryEClass, FACTORY__WIDTH);
 		createEAttribute(factoryEClass, FACTORY__LENGTH);
 		createEAttribute(factoryEClass, FACTORY__HEIGHT);
-		createEReference(factoryEClass, FACTORY__OWNED_HUMAN_OPERATOR);
+		createEReference(factoryEClass, FACTORY__OWNED_HUMAN_OPERATORS);
 		createEReference(factoryEClass, FACTORY__OWNED_MACHINES);
 		createEReference(factoryEClass, FACTORY__OWNED_PRODUCTS);
 
@@ -391,7 +391,7 @@ public class FactoryPackageImpl extends EPackageImpl implements FactoryPackage {
 		initEAttribute(getFactory_Width(), ecorePackage.getEInt(), "width", null, 1, 1, Factory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getFactory_Length(), ecorePackage.getEInt(), "length", null, 1, 1, Factory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getFactory_Height(), ecorePackage.getEInt(), "height", null, 1, 1, Factory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getFactory_OwnedHumanOperator(), this.getHumanOperator(), null, "ownedHumanOperator", null, 0, -1, Factory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getFactory_OwnedHumanOperators(), this.getHumanOperator(), null, "ownedHumanOperators", null, 0, -1, Factory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getFactory_OwnedMachines(), this.getMachine(), null, "ownedMachines", null, 0, -1, Factory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getFactory_OwnedProducts(), theProcessesPackage.getProduct(), null, "ownedProducts", null, 0, -1, Factory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 

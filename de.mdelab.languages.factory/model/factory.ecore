@@ -14,7 +14,7 @@
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="height" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedHumanOperator" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedHumanOperators" upperBound="-1"
         eType="#//HumanOperator" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="ownedMachines" upperBound="-1"
         eType="#//Machine" containment="true"/>

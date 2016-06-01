@@ -19,7 +19,7 @@ import org.eclipse.emf.common.util.EList;
  *   <li>{@link factory.Factory#getWidth <em>Width</em>}</li>
  *   <li>{@link factory.Factory#getLength <em>Length</em>}</li>
  *   <li>{@link factory.Factory#getHeight <em>Height</em>}</li>
- *   <li>{@link factory.Factory#getOwnedHumanOperator <em>Owned Human Operator</em>}</li>
+ *   <li>{@link factory.Factory#getOwnedHumanOperators <em>Owned Human Operators</em>}</li>
  *   <li>{@link factory.Factory#getOwnedMachines <em>Owned Machines</em>}</li>
  *   <li>{@link factory.Factory#getOwnedProducts <em>Owned Products</em>}</li>
  * </ul>
@@ -134,22 +134,22 @@ public interface Factory extends IdentifiedElement {
     void setHeight(int value);
 
     /**
-	 * Returns the value of the '<em><b>Owned Human Operator</b></em>' containment reference list.
+	 * Returns the value of the '<em><b>Owned Human Operators</b></em>' containment reference list.
 	 * The list contents are of type {@link factory.HumanOperator}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Owned Human Operator</em>' containment reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
-	 * @return the value of the '<em>Owned Human Operator</em>' containment reference list.
-	 * @see factory.FactoryPackage#getFactory_OwnedHumanOperator()
+	 * <p>
+	 * If the meaning of the '<em>Owned Human Operators</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Owned Human Operators</em>' containment reference list.
+	 * @see factory.FactoryPackage#getFactory_OwnedHumanOperators()
 	 * @model containment="true"
 	 * @generated
 	 */
-    EList<HumanOperator> getOwnedHumanOperator();
+	EList<HumanOperator> getOwnedHumanOperators();
 
-    /**
+				/**
 	 * Returns the value of the '<em><b>Owned Machines</b></em>' containment reference list.
 	 * The list contents are of type {@link factory.Machine}.
 	 * <!-- begin-user-doc -->

@@ -36,7 +36,7 @@ import org.eclipse.emf.ecore.util.InternalEList;
  *   <li>{@link factory.impl.FactoryImpl#getWidth <em>Width</em>}</li>
  *   <li>{@link factory.impl.FactoryImpl#getLength <em>Length</em>}</li>
  *   <li>{@link factory.impl.FactoryImpl#getHeight <em>Height</em>}</li>
- *   <li>{@link factory.impl.FactoryImpl#getOwnedHumanOperator <em>Owned Human Operator</em>}</li>
+ *   <li>{@link factory.impl.FactoryImpl#getOwnedHumanOperators <em>Owned Human Operators</em>}</li>
  *   <li>{@link factory.impl.FactoryImpl#getOwnedMachines <em>Owned Machines</em>}</li>
  *   <li>{@link factory.impl.FactoryImpl#getOwnedProducts <em>Owned Products</em>}</li>
  * </ul>
@@ -125,16 +125,16 @@ public class FactoryImpl extends IdentifiedElementImpl implements Factory {
     protected int height = HEIGHT_EDEFAULT;
 
     /**
-	 * The cached value of the '{@link #getOwnedHumanOperator() <em>Owned Human Operator</em>}' containment reference list.
+	 * The cached value of the '{@link #getOwnedHumanOperators() <em>Owned Human Operators</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-	 * @see #getOwnedHumanOperator()
+	 * <!-- end-user-doc -->
+	 * @see #getOwnedHumanOperators()
 	 * @generated
 	 * @ordered
 	 */
-    protected EList<HumanOperator> ownedHumanOperator;
+	protected EList<HumanOperator> ownedHumanOperators;
 
-    /**
+				/**
 	 * The cached value of the '{@link #getOwnedMachines() <em>Owned Machines</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -259,17 +259,17 @@ public class FactoryImpl extends IdentifiedElementImpl implements Factory {
 
     /**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<HumanOperator> getOwnedHumanOperator() {
-		if (ownedHumanOperator == null) {
-			ownedHumanOperator = new EObjectContainmentEList<HumanOperator>(HumanOperator.class, this, FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR);
+	public EList<HumanOperator> getOwnedHumanOperators() {
+		if (ownedHumanOperators == null) {
+			ownedHumanOperators = new EObjectContainmentEList<HumanOperator>(HumanOperator.class, this, FactoryPackage.FACTORY__OWNED_HUMAN_OPERATORS);
 		}
-		return ownedHumanOperator;
+		return ownedHumanOperators;
 	}
 
-    /**
+				/**
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
@@ -301,8 +301,8 @@ public class FactoryImpl extends IdentifiedElementImpl implements Factory {
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
-			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
-				return ((InternalEList<?>)getOwnedHumanOperator()).basicRemove(otherEnd, msgs);
+			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATORS:
+				return ((InternalEList<?>)getOwnedHumanOperators()).basicRemove(otherEnd, msgs);
 			case FactoryPackage.FACTORY__OWNED_MACHINES:
 				return ((InternalEList<?>)getOwnedMachines()).basicRemove(otherEnd, msgs);
 			case FactoryPackage.FACTORY__OWNED_PRODUCTS:
@@ -327,8 +327,8 @@ public class FactoryImpl extends IdentifiedElementImpl implements Factory {
 				return getLength();
 			case FactoryPackage.FACTORY__HEIGHT:
 				return getHeight();
-			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
-				return getOwnedHumanOperator();
+			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATORS:
+				return getOwnedHumanOperators();
 			case FactoryPackage.FACTORY__OWNED_MACHINES:
 				return getOwnedMachines();
 			case FactoryPackage.FACTORY__OWNED_PRODUCTS:
@@ -358,9 +358,9 @@ public class FactoryImpl extends IdentifiedElementImpl implements Factory {
 			case FactoryPackage.FACTORY__HEIGHT:
 				setHeight((Integer)newValue);
 				return;
-			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
-				getOwnedHumanOperator().clear();
-				getOwnedHumanOperator().addAll((Collection<? extends HumanOperator>)newValue);
+			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATORS:
+				getOwnedHumanOperators().clear();
+				getOwnedHumanOperators().addAll((Collection<? extends HumanOperator>)newValue);
 				return;
 			case FactoryPackage.FACTORY__OWNED_MACHINES:
 				getOwnedMachines().clear();
@@ -394,8 +394,8 @@ public class FactoryImpl extends IdentifiedElementImpl implements Factory {
 			case FactoryPackage.FACTORY__HEIGHT:
 				setHeight(HEIGHT_EDEFAULT);
 				return;
-			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
-				getOwnedHumanOperator().clear();
+			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATORS:
+				getOwnedHumanOperators().clear();
 				return;
 			case FactoryPackage.FACTORY__OWNED_MACHINES:
 				getOwnedMachines().clear();
@@ -423,8 +423,8 @@ public class FactoryImpl extends IdentifiedElementImpl implements Factory {
 				return length != LENGTH_EDEFAULT;
 			case FactoryPackage.FACTORY__HEIGHT:
 				return height != HEIGHT_EDEFAULT;
-			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
-				return ownedHumanOperator != null && !ownedHumanOperator.isEmpty();
+			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATORS:
+				return ownedHumanOperators != null && !ownedHumanOperators.isEmpty();
 			case FactoryPackage.FACTORY__OWNED_MACHINES:
 				return ownedMachines != null && !ownedMachines.isEmpty();
 			case FactoryPackage.FACTORY__OWNED_PRODUCTS:

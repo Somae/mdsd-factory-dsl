@@ -158,7 +158,7 @@ public class FactoryItemProvider extends IdentifiedElementItemProvider {
     public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures.add(FactoryPackage.Literals.FACTORY__OWNED_HUMAN_OPERATOR);
+			childrenFeatures.add(FactoryPackage.Literals.FACTORY__OWNED_HUMAN_OPERATORS);
 			childrenFeatures.add(FactoryPackage.Literals.FACTORY__OWNED_MACHINES);
 			childrenFeatures.add(FactoryPackage.Literals.FACTORY__OWNED_PRODUCTS);
 		}
@@ -222,7 +222,7 @@ public class FactoryItemProvider extends IdentifiedElementItemProvider {
 			case FactoryPackage.FACTORY__HEIGHT:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
-			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATOR:
+			case FactoryPackage.FACTORY__OWNED_HUMAN_OPERATORS:
 			case FactoryPackage.FACTORY__OWNED_MACHINES:
 			case FactoryPackage.FACTORY__OWNED_PRODUCTS:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
@@ -244,7 +244,7 @@ public class FactoryItemProvider extends IdentifiedElementItemProvider {
 
 		newChildDescriptors.add
 			(createChildParameter
-				(FactoryPackage.Literals.FACTORY__OWNED_HUMAN_OPERATOR,
+				(FactoryPackage.Literals.FACTORY__OWNED_HUMAN_OPERATORS,
 				 FactoryFactory.eINSTANCE.createHumanOperator()));
 
 		newChildDescriptors.add
