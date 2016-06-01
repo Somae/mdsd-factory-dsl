@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:factory="http://www.example.org/factory" xmlns:factory.processes="http://www.example.org/factory/processes" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.example.org/factory/processes http://www.example.org/factory#//processes http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_FolY8CKKEea4C99WDhF43g" selectedViews="_Y5fB4CKKEea4C99WDhF43g" version="10.1.0.201509162000">
+  <semanticResources>My.factory</semanticResources>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_Y5fB4CKKEea4C99WDhF43g">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_fi1UcCKKEea4C99WDhF43g" name="new factory_specification">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_fi2ikCKKEea4C99WDhF43g" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_fi2ikSKKEea4C99WDhF43g"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_fjL5wCKKEea4C99WDhF43g" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_fjL5wSKKEea4C99WDhF43g" type="Sirius" element="_fi1UcCKKEea4C99WDhF43g" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_SN6LoCd1EeawzOmVUTGv5A" type="2002" element="_SN4WcCd1EeawzOmVUTGv5A">
+            <children xmi:type="notation:Node" xmi:id="_SN6Loyd1EeawzOmVUTGv5A" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_SN6LpCd1EeawzOmVUTGv5A" type="7001">
+              <children xmi:type="notation:Node" xmi:id="_HaZT0Cd3EeayH__YlAUKSg" type="3007" element="_HaW3kCd3EeayH__YlAUKSg">
+                <children xmi:type="notation:Node" xmi:id="_HaZ64Cd3EeayH__YlAUKSg" type="5003">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_HaZ64Sd3EeayH__YlAUKSg" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_HaZ64id3EeayH__YlAUKSg" type="3003" element="_HaW3kSd3EeayH__YlAUKSg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_HaZ64yd3EeayH__YlAUKSg" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HaZ65Cd3EeayH__YlAUKSg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_HaZT0Sd3EeayH__YlAUKSg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HaZT0id3EeayH__YlAUKSg" x="32" y="134" width="81" height="30"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_3YKJ0Cd3EeayH__YlAUKSg" type="3007" element="_3YAY0Cd3EeayH__YlAUKSg">
+                <children xmi:type="notation:Node" xmi:id="_3YKw4Cd3EeayH__YlAUKSg" type="5003">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_3YKw4Sd3EeayH__YlAUKSg" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_3YLX8Cd3EeayH__YlAUKSg" type="3003" element="_3YA_4Cd3EeayH__YlAUKSg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_3YLX8Sd3EeayH__YlAUKSg" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3YLX8id3EeayH__YlAUKSg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_3YKJ0Sd3EeayH__YlAUKSg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3YKJ0id3EeayH__YlAUKSg" x="30" y="184" width="86" height="30"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_oeZxkCfKEeaT5rYfQjxAnw" type="3008" element="_oeIEwCfKEeaT5rYfQjxAnw">
+                <children xmi:type="notation:Node" xmi:id="_oehtYCfKEeaT5rYfQjxAnw" type="5005"/>
+                <children xmi:type="notation:Node" xmi:id="_oeiUcCfKEeaT5rYfQjxAnw" type="7002">
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_oeiUcSfKEeaT5rYfQjxAnw"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_oeiUcifKEeaT5rYfQjxAnw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_oeZxkSfKEeaT5rYfQjxAnw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oeZxkifKEeaT5rYfQjxAnw" x="20" y="49" width="113" height="78"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0QL9kCfKEeaT5rYfQjxAnw" type="3008" element="_0P_JQCfKEeaT5rYfQjxAnw">
+                <children xmi:type="notation:Node" xmi:id="_0QMkoCfKEeaT5rYfQjxAnw" type="5005"/>
+                <children xmi:type="notation:Node" xmi:id="_0QMkoSfKEeaT5rYfQjxAnw" type="7002">
+                  <children xmi:type="notation:Node" xmi:id="_elxqICfLEeaT5rYfQjxAnw" type="3008" element="_elfWQCfLEeaT5rYfQjxAnw">
+                    <children xmi:type="notation:Node" xmi:id="_elyRMCfLEeaT5rYfQjxAnw" type="5005"/>
+                    <children xmi:type="notation:Node" xmi:id="_ely4QCfLEeaT5rYfQjxAnw" type="7002">
+                      <children xmi:type="notation:Node" xmi:id="_DplUACfMEeaT5rYfQjxAnw" type="3008" element="_DpgbgCfMEeaT5rYfQjxAnw">
+                        <children xmi:type="notation:Node" xmi:id="_Dpl7ECfMEeaT5rYfQjxAnw" type="5005"/>
+                        <children xmi:type="notation:Node" xmi:id="_DpmiICfMEeaT5rYfQjxAnw" type="7002">
+                          <styles xmi:type="notation:SortingStyle" xmi:id="_DpmiISfMEeaT5rYfQjxAnw"/>
+                          <styles xmi:type="notation:FilteringStyle" xmi:id="_DpmiIifMEeaT5rYfQjxAnw"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_DplUASfMEeaT5rYfQjxAnw" fontName="Segoe UI" fontHeight="8"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DplUAifMEeaT5rYfQjxAnw" x="10" y="29"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_EelpYCfMEeaT5rYfQjxAnw" type="3008" element="_EeeUoCfMEeaT5rYfQjxAnw">
+                        <children xmi:type="notation:Node" xmi:id="_EelpYyfMEeaT5rYfQjxAnw" type="5005"/>
+                        <children xmi:type="notation:Node" xmi:id="_EelpZCfMEeaT5rYfQjxAnw" type="7002">
+                          <styles xmi:type="notation:SortingStyle" xmi:id="_EelpZSfMEeaT5rYfQjxAnw"/>
+                          <styles xmi:type="notation:FilteringStyle" xmi:id="_EelpZifMEeaT5rYfQjxAnw"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_EelpYSfMEeaT5rYfQjxAnw" fontName="Segoe UI" fontHeight="8"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EelpYifMEeaT5rYfQjxAnw" x="85" y="21" width="86" height="61"/>
+                      </children>
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_ely4QSfLEeaT5rYfQjxAnw"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_ely4QifLEeaT5rYfQjxAnw"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_elxqISfLEeaT5rYfQjxAnw" fontName="Segoe UI" fontHeight="8"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_elxqIifLEeaT5rYfQjxAnw" x="40" y="30" width="183" height="103"/>
+                  </children>
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_0QMkoifKEeaT5rYfQjxAnw"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_0QMkoyfKEeaT5rYfQjxAnw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0QL9kSfKEeaT5rYfQjxAnw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0QL9kifKEeaT5rYfQjxAnw" x="180" y="38" width="278" height="173"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_SN6LpSd1EeawzOmVUTGv5A"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_SN6Lpid1EeawzOmVUTGv5A"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_SN6LoSd1EeawzOmVUTGv5A" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SN6Loid1EeawzOmVUTGv5A" x="70" y="30" width="513" height="283"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_0SnfICfNEea27-SYop-Xig" type="2001" element="_0STWECfNEea27-SYop-Xig">
+            <children xmi:type="notation:Node" xmi:id="_0SoGMCfNEea27-SYop-Xig" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_0SoGMSfNEea27-SYop-Xig" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0SotQCfNEea27-SYop-Xig" type="3002" element="_0SVyUCfNEea27-SYop-Xig">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0SotQSfNEea27-SYop-Xig" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0SotQifNEea27-SYop-Xig"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_0SnfISfNEea27-SYop-Xig" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0SnfIifNEea27-SYop-Xig" x="295" y="325" width="81" height="71"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RgOzYCfPEea27-SYop-Xig" type="2001" element="_RgEbUCfPEea27-SYop-Xig">
+            <children xmi:type="notation:Node" xmi:id="_RgOzYyfPEea27-SYop-Xig" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_RgOzZCfPEea27-SYop-Xig" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_RgPacCfPEea27-SYop-Xig" type="3002" element="_RgEbUSfPEea27-SYop-Xig">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_RgPacSfPEea27-SYop-Xig" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RgPacifPEea27-SYop-Xig"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_RgOzYSfPEea27-SYop-Xig" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RgOzYifPEea27-SYop-Xig" x="435" y="345" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_fjL5wiKKEea4C99WDhF43g"/>
+          <edges xmi:type="notation:Edge" xmi:id="_s_nWICfOEea27-SYop-Xig" type="4001" element="_s-6ykCfOEea27-SYop-Xig" source="_DplUACfMEeaT5rYfQjxAnw" target="_0SnfICfNEea27-SYop-Xig">
+            <children xmi:type="notation:Node" xmi:id="_s_rAgCfOEea27-SYop-Xig" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_rAgSfOEea27-SYop-Xig" x="-6" y="-9"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_s_sOoCfOEea27-SYop-Xig" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_sOoSfOEea27-SYop-Xig" x="2" y="9"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_s_uD0CfOEea27-SYop-Xig" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_uD0SfOEea27-SYop-Xig" x="3" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_s_nWISfOEea27-SYop-Xig"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_s_nWIifOEea27-SYop-Xig" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s_nWIyfOEea27-SYop-Xig" points="[7, 20, 7, -175]$[1, 160, 1, -35]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tAVH0CfOEea27-SYop-Xig" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tAVH0SfOEea27-SYop-Xig" id="(0.49382716049382713,0.49295774647887325)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_SBcDACfPEea27-SYop-Xig" type="4001" element="_SBUuQCfPEea27-SYop-Xig" source="_EelpYCfMEeaT5rYfQjxAnw" target="_RgOzYCfPEea27-SYop-Xig">
+            <children xmi:type="notation:Node" xmi:id="_SBcqECfPEea27-SYop-Xig" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SBcqESfPEea27-SYop-Xig" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_SBcqEifPEea27-SYop-Xig" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SBcqEyfPEea27-SYop-Xig" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_SBcqFCfPEea27-SYop-Xig" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SBcqFSfPEea27-SYop-Xig" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_SBcDASfPEea27-SYop-Xig"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_SBcDAifPEea27-SYop-Xig" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SBcDAyfPEea27-SYop-Xig" points="[0, 0, -40, -147]$[40, 147, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SBcqFifPEea27-SYop-Xig" id="(0.23255813953488372,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SBcqFyfPEea27-SYop-Xig" id="(0.5,0.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_j3En0CfPEea27-SYop-Xig" type="4001" element="_j2-hMCfPEea27-SYop-Xig" source="_DplUACfMEeaT5rYfQjxAnw" target="_RgOzYCfPEea27-SYop-Xig">
+            <children xmi:type="notation:Node" xmi:id="_j3En1CfPEea27-SYop-Xig" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j3En1SfPEea27-SYop-Xig" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_j3FO4CfPEea27-SYop-Xig" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j3FO4SfPEea27-SYop-Xig" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_j3FO4ifPEea27-SYop-Xig" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j3FO4yfPEea27-SYop-Xig" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_j3En0SfPEea27-SYop-Xig"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_j3En0ifPEea27-SYop-Xig" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j3En0yfPEea27-SYop-Xig" points="[0, 0, -100, -165]$[100, 165, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j3FO5CfPEea27-SYop-Xig" id="(0.5,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j3FO5SfPEea27-SYop-Xig" id="(0.0,0.16666666666666666)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_SN4WcCd1EeawzOmVUTGv5A" name="test">
+        <target xmi:type="factory:Factory" href="My.factory#//@ownedFactories.0"/>
+        <semanticElements xmi:type="factory:Factory" href="My.factory#//@ownedFactories.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_SN4WcSd1EeawzOmVUTGv5A" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="238,201,142">
+          <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_HaW3kCd3EeayH__YlAUKSg" name="human operator" tooltipText="human operator" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="factory:HumanOperator" href="My.factory#//@ownedFactories.0/@ownedHumanOperators.0"/>
+          <semanticElements xmi:type="factory:HumanOperator" href="My.factory#//@ownedFactories.0/@ownedHumanOperators.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_HaW3kSd3EeayH__YlAUKSg" showIcon="false" labelPosition="node" color="173,127,168">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subNodeMappings[name='HumanOperatorNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subNodeMappings[name='HumanOperatorNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_3YAY0Cd3EeayH__YlAUKSg" name="machine" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="factory:Machine" href="My.factory#//@ownedFactories.0/@ownedMachines.0"/>
+          <semanticElements xmi:type="factory:Machine" href="My.factory#//@ownedFactories.0/@ownedMachines.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_3YA_4Cd3EeayH__YlAUKSg" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subNodeMappings[name='MachineNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subNodeMappings[name='MachineNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_oeIEwCfKEeaT5rYfQjxAnw" name="product">
+          <target xmi:type="factory.processes:Product" href="My.factory#//@ownedFactories.0/@ownedProducts.0"/>
+          <semanticElements xmi:type="factory.processes:Product" href="My.factory#//@ownedFactories.0/@ownedProducts.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_oeIr0CfKEeaT5rYfQjxAnw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="224,133,3">
+            <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_0P_JQCfKEeaT5rYfQjxAnw" name="product">
+          <target xmi:type="factory.processes:Product" href="My.factory#//@ownedFactories.0/@ownedProducts.1"/>
+          <semanticElements xmi:type="factory.processes:Product" href="My.factory#//@ownedFactories.0/@ownedProducts.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_0P_wUCfKEeaT5rYfQjxAnw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="224,133,3">
+            <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_elfWQCfLEeaT5rYfQjxAnw" name="process">
+            <target xmi:type="factory.processes:Process" href="My.factory#//@ownedFactories.0/@ownedProducts.1/@ownedProcess"/>
+            <semanticElements xmi:type="factory.processes:Process" href="My.factory#//@ownedFactories.0/@ownedProducts.1/@ownedProcess"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_eliZkCfLEeaT5rYfQjxAnw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="246,139,139" foregroundColor="39,76,114">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']/@subContainerMappings[name='ProcessNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']/@subContainerMappings[name='ProcessNode']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_DpgbgCfMEeaT5rYfQjxAnw" name="task" outgoingEdges="_s-6ykCfOEea27-SYop-Xig _j2-hMCfPEea27-SYop-Xig">
+              <target xmi:type="factory.processes:Task" href="My.factory#"/>
+              <semanticElements xmi:type="factory.processes:Task" href="My.factory#"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_DpgbgSfMEeaT5rYfQjxAnw" showIcon="false" workspacePath="/org.apache.batik.util.gui/org/apache/batik/util/gui/resources/flags/flag_ne.gif">
+                <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']/@subContainerMappings[name='ProcessNode']/@subContainerMappings[name='TaskNode']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']/@subContainerMappings[name='ProcessNode']/@subContainerMappings[name='TaskNode']"/>
+            </ownedDiagramElements>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_EeeUoCfMEeaT5rYfQjxAnw" name="task" outgoingEdges="_SBUuQCfPEea27-SYop-Xig">
+              <target xmi:type="factory.processes:Task" href="My.factory#//@ownedFactories.0/@ownedProducts.1/@ownedProcess/@ownedTasks.1"/>
+              <semanticElements xmi:type="factory.processes:Task" href="My.factory#//@ownedFactories.0/@ownedProducts.1/@ownedProcess/@ownedTasks.1"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_EeeUoSfMEeaT5rYfQjxAnw" showIcon="false" workspacePath="/org.apache.batik.util.gui/org/apache/batik/util/gui/resources/flags/flag_ne.gif">
+                <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']/@subContainerMappings[name='ProcessNode']/@subContainerMappings[name='TaskNode']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']/@subContainerMappings[name='ProcessNode']/@subContainerMappings[name='TaskNode']"/>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_0STWECfNEea27-SYop-Xig" name="input" incomingEdges="_s-6ykCfOEea27-SYop-Xig" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="factory.processes:Material" href="My.factory#//@ownedMaterials.0"/>
+        <semanticElements xmi:type="factory.processes:Material" href="My.factory#//@ownedMaterials.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_0SVyUCfNEea27-SYop-Xig" showIcon="false" labelPosition="node" backgroundColor="252,233,79">
+          <description xmi:type="style:DotDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@nodeMappings[name='MaterialNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@nodeMappings[name='MaterialNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_RgEbUCfPEea27-SYop-Xig" name="material" incomingEdges="_SBUuQCfPEea27-SYop-Xig _j2-hMCfPEea27-SYop-Xig" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="factory.processes:Material" href="My.factory#//@ownedMaterials.1"/>
+        <semanticElements xmi:type="factory.processes:Material" href="My.factory#//@ownedMaterials.1"/>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_RgEbUSfPEea27-SYop-Xig" showIcon="false" labelPosition="node" backgroundColor="252,233,79">
+          <description xmi:type="style:DotDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@nodeMappings[name='MaterialNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@nodeMappings[name='MaterialNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_s-6ykCfOEea27-SYop-Xig" sourceNode="_DpgbgCfMEeaT5rYfQjxAnw" targetNode="_0STWECfNEea27-SYop-Xig">
+        <target xmi:type="factory.processes:Task" href="My.factory#"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_s-914CfOEea27-SYop-Xig" sourceArrow="InputArrow" targetArrow="NoDecoration" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@edgeMappings[name='InputEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_s-914SfOEea27-SYop-Xig"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@edgeMappings[name='InputEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_SBUuQCfPEea27-SYop-Xig" sourceNode="_EeeUoCfMEeaT5rYfQjxAnw" targetNode="_RgEbUCfPEea27-SYop-Xig">
+        <target xmi:type="factory.processes:Task" href="My.factory#//@ownedFactories.0/@ownedProducts.1/@ownedProcess/@ownedTasks.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_SBUuQSfPEea27-SYop-Xig" sourceArrow="InputArrow" targetArrow="NoDecoration" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@edgeMappings[name='InputEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_SBUuQifPEea27-SYop-Xig"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@edgeMappings[name='InputEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_j2-hMCfPEea27-SYop-Xig" sourceNode="_DpgbgCfMEeaT5rYfQjxAnw" targetNode="_RgEbUCfPEea27-SYop-Xig">
+        <target xmi:type="factory.processes:Task" href="My.factory#"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_j2-hMSfPEea27-SYop-Xig" lineStyle="dash" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@edgeMappings[name='OutputEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_j2-hMifPEea27-SYop-Xig"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@edgeMappings[name='OutputEdge']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_fi2ikiKKEea4C99WDhF43g"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer"/>
+      <target xmi:type="factory:FactorySpecification" href="My.factory#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/de.mdelab.languages.factory.design/description/factory.odesign#//@ownedViewpoints[name='factory']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

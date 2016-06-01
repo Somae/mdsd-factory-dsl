@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="factory" version="10.1.3.201511131800">
+  <ownedViewpoints name="factory" modelFileExtension="factory">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="factory_specification" domainClass="FactorySpecification" enablePopupBars="true">
+      <metamodel href="http://www.example.org/factory#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="MaterialNode" semanticCandidatesExpression="feature:eAllContents" domainClass="Material">
+          <style xsi:type="style:DotDescription" showIcon="false" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="InputEdge" sourceMapping="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']/@subContainerMappings[name='ProcessNode']/@subContainerMappings[name='TaskNode']" targetMapping="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@nodeMappings[name='MaterialNode']" targetFinderExpression="feature:input">
+          <style sourceArrow="InputArrow" targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="OutputEdge" sourceMapping="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']/@subContainerMappings[name='ProcessNode']/@subContainerMappings[name='TaskNode']" targetMapping="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@nodeMappings[name='MaterialNode']" targetFinderExpression="feature:output">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="FactoryNode" labelDirectEdit="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@toolSections.0/@ownedTools[name='edit%20name']" semanticCandidatesExpression="feature:ownedFactories" domainClass="Factory">
+          <subNodeMappings name="HumanOperatorNode" labelDirectEdit="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@toolSections.0/@ownedTools[name='edit%20name']" domainClass="HumanOperator">
+            <style xsi:type="style:SquareDescription" showIcon="false" tooltipExpression="aql: self.name" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="MachineNode" labelDirectEdit="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@toolSections.0/@ownedTools[name='edit%20name']" semanticCandidatesExpression="feature:eAllContents" domainClass="Machine">
+            <style xsi:type="style:SquareDescription" showIcon="false" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <subContainerMappings name="ProductNode" semanticCandidatesExpression="feature:eAllContents" domainClass="Product">
+            <subContainerMappings name="ProcessNode" semanticCandidatesExpression="feature:eAllContents" domainClass="Process">
+              <subContainerMappings name="TaskNode" semanticCandidatesExpression="feature:eAllContents" domainClass="Task">
+                <style xsi:type="style:WorkspaceImageDescription" showIcon="false" workspacePath="/org.apache.batik.util.gui/org/apache/batik/util/gui/resources/flags/flag_ne.gif">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subContainerMappings>
+              <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" showIcon="false">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+              </style>
+            </subContainerMappings>
+            <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" showIcon="false">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_orange']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" showIcon="false">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_chocolate']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Factory Palette">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="create factory" containerMappings="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Factory" referenceName="ownedFactories">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'factory'"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="create human operator" nodeMappings="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subNodeMappings[name='HumanOperatorNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="HumanOperator" referenceName="ownedHumanOperators">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="human operator"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="create machine" nodeMappings="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subNodeMappings[name='MachineNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Machine" referenceName="ownedMachines">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="machine"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="create product" containerMappings="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Product" referenceName="ownedProducts">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="product"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="create process" containerMappings="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']/@subContainerMappings[name='ProcessNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Process" referenceName="ownedProcess">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="process"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="create task" containerMappings="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']/@subContainerMappings[name='ProcessNode']/@subContainerMappings[name='TaskNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Task" referenceName="ownedTasks">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="task"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="create material" nodeMappings="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@nodeMappings[name='MaterialNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Material" referenceName="ownedMaterials">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="material"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="edit name">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="create input edge" edgeMappings="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@edgeMappings[name='InputEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="input" valueExpression="var:target"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="create output edge" edgeMappings="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@edgeMappings[name='OutputEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="output" valueExpression="var:target"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

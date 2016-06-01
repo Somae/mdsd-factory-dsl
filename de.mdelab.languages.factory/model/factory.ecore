@@ -31,6 +31,8 @@
   <eClassifiers xsi:type="ecore:EClass" name="FactorySpecification">
     <eStructuralFeatures xsi:type="ecore:EReference" name="ownedFactories" upperBound="-1"
         eType="#//Factory" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedMaterials" upperBound="-1"
+        eType="#//processes/Material" containment="true"/>
   </eClassifiers>
   <eSubpackages name="processes" nsURI="http://www.example.org/factory/processes"
       nsPrefix="factory.processes">

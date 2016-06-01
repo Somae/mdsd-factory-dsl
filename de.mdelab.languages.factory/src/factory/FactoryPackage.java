@@ -350,13 +350,22 @@ public interface FactoryPackage extends EPackage {
     int FACTORY_SPECIFICATION__OWNED_FACTORIES = 0;
 
     /**
+	 * The feature id for the '<em><b>Owned Materials</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int FACTORY_SPECIFICATION__OWNED_MATERIALS = 1;
+
+				/**
 	 * The number of structural features of the '<em>Specification</em>' class.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    int FACTORY_SPECIFICATION_FEATURE_COUNT = 1;
+    int FACTORY_SPECIFICATION_FEATURE_COUNT = 2;
 
     /**
 	 * The number of operations of the '<em>Specification</em>' class.
@@ -562,6 +571,17 @@ public interface FactoryPackage extends EPackage {
     EReference getFactorySpecification_OwnedFactories();
 
     /**
+	 * Returns the meta object for the containment reference list '{@link factory.FactorySpecification#getOwnedMaterials <em>Owned Materials</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Owned Materials</em>'.
+	 * @see factory.FactorySpecification#getOwnedMaterials()
+	 * @see #getFactorySpecification()
+	 * @generated
+	 */
+	EReference getFactorySpecification_OwnedMaterials();
+
+				/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -737,6 +757,14 @@ public interface FactoryPackage extends EPackage {
 		 * @generated
 		 */
         EReference FACTORY_SPECIFICATION__OWNED_FACTORIES = eINSTANCE.getFactorySpecification_OwnedFactories();
+
+								/**
+		 * The meta object literal for the '<em><b>Owned Materials</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FACTORY_SPECIFICATION__OWNED_MATERIALS = eINSTANCE.getFactorySpecification_OwnedMaterials();
 
     }
 

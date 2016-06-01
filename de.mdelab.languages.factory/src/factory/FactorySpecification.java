@@ -2,6 +2,7 @@
  */
 package factory;
 
+import factory.processes.Material;
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EObject;
@@ -16,6 +17,7 @@ import org.eclipse.emf.ecore.EObject;
  * </p>
  * <ul>
  *   <li>{@link factory.FactorySpecification#getOwnedFactories <em>Owned Factories</em>}</li>
+ *   <li>{@link factory.FactorySpecification#getOwnedMaterials <em>Owned Materials</em>}</li>
  * </ul>
  *
  * @see factory.FactoryPackage#getFactorySpecification()
@@ -38,5 +40,21 @@ public interface FactorySpecification extends EObject {
 	 * @generated
 	 */
     EList<Factory> getOwnedFactories();
+
+				/**
+	 * Returns the value of the '<em><b>Owned Materials</b></em>' containment reference list.
+	 * The list contents are of type {@link factory.processes.Material}.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Owned Materials</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Owned Materials</em>' containment reference list.
+	 * @see factory.FactoryPackage#getFactorySpecification_OwnedMaterials()
+	 * @model containment="true"
+	 * @generated
+	 */
+	EList<Material> getOwnedMaterials();
 
 } // FactorySpecification

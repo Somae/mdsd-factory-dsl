@@ -6,6 +6,7 @@ import factory.Factory;
 import factory.FactoryPackage;
 import factory.FactorySpecification;
 
+import factory.processes.Material;
 import java.util.Collection;
 
 import org.eclipse.emf.common.notify.NotificationChain;
@@ -29,6 +30,7 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * </p>
  * <ul>
  *   <li>{@link factory.impl.FactorySpecificationImpl#getOwnedFactories <em>Owned Factories</em>}</li>
+ *   <li>{@link factory.impl.FactorySpecificationImpl#getOwnedMaterials <em>Owned Materials</em>}</li>
  * </ul>
  *
  * @generated
@@ -45,6 +47,16 @@ public class FactorySpecificationImpl extends MinimalEObjectImpl.Container imple
     protected EList<Factory> ownedFactories;
 
     /**
+	 * The cached value of the '{@link #getOwnedMaterials() <em>Owned Materials</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getOwnedMaterials()
+	 * @generated
+	 * @ordered
+	 */
+	protected EList<Material> ownedMaterials;
+
+				/**
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
@@ -77,6 +89,18 @@ public class FactorySpecificationImpl extends MinimalEObjectImpl.Container imple
 
     /**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EList<Material> getOwnedMaterials() {
+		if (ownedMaterials == null) {
+			ownedMaterials = new EObjectContainmentEList<Material>(Material.class, this, FactoryPackage.FACTORY_SPECIFICATION__OWNED_MATERIALS);
+		}
+		return ownedMaterials;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -85,6 +109,8 @@ public class FactorySpecificationImpl extends MinimalEObjectImpl.Container imple
 		switch (featureID) {
 			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
 				return ((InternalEList<?>)getOwnedFactories()).basicRemove(otherEnd, msgs);
+			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_MATERIALS:
+				return ((InternalEList<?>)getOwnedMaterials()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -99,6 +125,8 @@ public class FactorySpecificationImpl extends MinimalEObjectImpl.Container imple
 		switch (featureID) {
 			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
 				return getOwnedFactories();
+			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_MATERIALS:
+				return getOwnedMaterials();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -116,6 +144,10 @@ public class FactorySpecificationImpl extends MinimalEObjectImpl.Container imple
 				getOwnedFactories().clear();
 				getOwnedFactories().addAll((Collection<? extends Factory>)newValue);
 				return;
+			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_MATERIALS:
+				getOwnedMaterials().clear();
+				getOwnedMaterials().addAll((Collection<? extends Material>)newValue);
+				return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -131,6 +163,9 @@ public class FactorySpecificationImpl extends MinimalEObjectImpl.Container imple
 			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
 				getOwnedFactories().clear();
 				return;
+			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_MATERIALS:
+				getOwnedMaterials().clear();
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -145,6 +180,8 @@ public class FactorySpecificationImpl extends MinimalEObjectImpl.Container imple
 		switch (featureID) {
 			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
 				return ownedFactories != null && !ownedFactories.isEmpty();
+			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_MATERIALS:
+				return ownedMaterials != null && !ownedMaterials.isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factory:FactorySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:factory="http://www.example.org/factory">
+  <ownedFactories name="test">
+    <ownedHumanOperators name="human operator"/>
+    <ownedMachines name="machine"/>
+    <ownedProducts name="product"/>
+    <ownedProducts name="product">
+      <ownedProcess name="process">
+        <ownedTasks ID="" name="task" input="//@ownedMaterials.0" output="//@ownedMaterials.1"/>
+        <ownedTasks name="task" input="//@ownedMaterials.1"/>
+      </ownedProcess>
+    </ownedProducts>
+  </ownedFactories>
+  <ownedMaterials name="input"/>
+  <ownedMaterials name="material"/>
+</factory:FactorySpecification>

@@ -293,6 +293,15 @@ public class FactoryPackageImpl extends EPackageImpl implements FactoryPackage {
 
     /**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getFactorySpecification_OwnedMaterials() {
+		return (EReference)factorySpecificationEClass.getEStructuralFeatures().get(1);
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -341,6 +350,7 @@ public class FactoryPackageImpl extends EPackageImpl implements FactoryPackage {
 
 		factorySpecificationEClass = createEClass(FACTORY_SPECIFICATION);
 		createEReference(factorySpecificationEClass, FACTORY_SPECIFICATION__OWNED_FACTORIES);
+		createEReference(factorySpecificationEClass, FACTORY_SPECIFICATION__OWNED_MATERIALS);
 	}
 
     /**
@@ -404,6 +414,7 @@ public class FactoryPackageImpl extends EPackageImpl implements FactoryPackage {
 
 		initEClass(factorySpecificationEClass, FactorySpecification.class, "FactorySpecification", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getFactorySpecification_OwnedFactories(), this.getFactory(), null, "ownedFactories", null, 0, -1, FactorySpecification.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getFactorySpecification_OwnedMaterials(), theProcessesPackage.getMaterial(), null, "ownedMaterials", null, 0, -1, FactorySpecification.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);

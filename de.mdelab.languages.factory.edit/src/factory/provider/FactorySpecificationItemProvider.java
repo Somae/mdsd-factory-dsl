@@ -7,6 +7,7 @@ import factory.FactoryFactory;
 import factory.FactoryPackage;
 import factory.FactorySpecification;
 
+import factory.processes.ProcessesFactory;
 import java.util.Collection;
 import java.util.List;
 
@@ -78,6 +79,7 @@ public class FactorySpecificationItemProvider
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
 			childrenFeatures.add(FactoryPackage.Literals.FACTORY_SPECIFICATION__OWNED_FACTORIES);
+			childrenFeatures.add(FactoryPackage.Literals.FACTORY_SPECIFICATION__OWNED_MATERIALS);
 		}
 		return childrenFeatures;
 	}
@@ -131,6 +133,7 @@ public class FactorySpecificationItemProvider
 
 		switch (notification.getFeatureID(FactorySpecification.class)) {
 			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_FACTORIES:
+			case FactoryPackage.FACTORY_SPECIFICATION__OWNED_MATERIALS:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 				return;
 		}
@@ -152,6 +155,11 @@ public class FactorySpecificationItemProvider
 			(createChildParameter
 				(FactoryPackage.Literals.FACTORY_SPECIFICATION__OWNED_FACTORIES,
 				 FactoryFactory.eINSTANCE.createFactory()));
+
+		newChildDescriptors.add
+			(createChildParameter
+				(FactoryPackage.Literals.FACTORY_SPECIFICATION__OWNED_MATERIALS,
+				 ProcessesFactory.eINSTANCE.createMaterial()));
 	}
 
     /**
