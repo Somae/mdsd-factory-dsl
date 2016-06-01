@@ -69,7 +69,7 @@
             <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_chocolate']"/>
           </style>
         </containerMappings>
-        <toolSections name="Factory Palette">
+        <toolSections name="Factory">
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="create factory" containerMappings="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
@@ -99,6 +99,14 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="edit name">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Processes">
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="create product" containerMappings="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@containerMappings[name='FactoryNode']/@subContainerMappings[name='ProductNode']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
@@ -135,12 +143,8 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:DirectEditLabel" name="edit name">
-            <mask mask="{0}"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
-            </initialOperation>
-          </ownedTools>
+        </toolSections>
+        <toolSections name="Edge Creation">
           <ownedTools xsi:type="tool:EdgeCreationDescription" name="create input edge" edgeMappings="//@ownedViewpoints[name='factory']/@ownedRepresentations[name='factory_specification']/@defaultLayer/@edgeMappings[name='InputEdge']">
             <sourceVariable name="source"/>
             <targetVariable name="target"/>
